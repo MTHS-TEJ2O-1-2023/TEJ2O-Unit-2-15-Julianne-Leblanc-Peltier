@@ -32,12 +32,12 @@ input.onButtonPressed(Button.A, function () {
       ledCoordinate++
     }
 
-  // turn 90 degrees
-  sprite.turn(Direction.Right, 90)
-  loopCounter++
+    // turn 90 degrees
+    sprite.turn(Direction.Right, 90)
+    loopCounter++
   }
 
-    // clean up
+  // clean up
   sprite.delete()
   basic.pause(500)
   basic.showIcon(IconNames.Happy)
